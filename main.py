@@ -120,7 +120,7 @@ def cancelar_reserva():
     if reserva:
         reserva.cancelar_reserva()
         gestor_reservas.guardar_reservas()
-        print("✅ Reserva cancelada.")
+        print(" Reserva cancelada.")
     else:
         print("Reserva no encontrada.")
 
