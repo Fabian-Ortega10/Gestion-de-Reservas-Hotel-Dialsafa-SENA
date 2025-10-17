@@ -31,11 +31,11 @@ class GestorPagos:
     def limpiar_pagos(self):
         self.pagos.clear()
 
-    # ✅ Guardar pagos en archivo JSON
+    #  Guardar pagos en archivo JSON
     def guardar_pagos(self, ruta="datos/pagos.json"):
         guardar_json(ruta, [p.to_dict() for p in self.pagos])
 
-    # ✅ Cargar pagos desde archivo JSON
+    #  Cargar pagos desde archivo JSON
     def cargar_pagos(self, reservas, ruta="datos/pagos.json"):
         datos = cargar_json(ruta)
         self.pagos = [Pago.from_dict(d, reservas) for d in datos]

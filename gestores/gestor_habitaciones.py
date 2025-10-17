@@ -26,11 +26,11 @@ class GestorHabitaciones:
     def limpiar_habitaciones(self):
         self.habitaciones.clear()
 
-    # ✅ NUEVO: Guardar habitaciones en archivo JSON
+    #  NUEVO: Guardar habitaciones en archivo JSON
     def guardar_habitaciones(self, ruta="datos/habitaciones.json"):
         guardar_json(ruta, [h.to_dict() for h in self.habitaciones])
 
-    # ✅ NUEVO: Cargar habitaciones desde archivo JSON
+    #  NUEVO: Cargar habitaciones desde archivo JSON
     def cargar_habitaciones(self, ruta="datos/habitaciones.json"):
         datos = cargar_json(ruta)
         self.habitaciones = [Habitacion.from_dict(d) for d in datos]

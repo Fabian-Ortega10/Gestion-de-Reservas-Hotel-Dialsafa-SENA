@@ -30,11 +30,11 @@ class GestorReservas:
     def limpiar_reservas(self):
         self.reservas.clear()
 
-    # ✅ NUEVO: Guardar reservas en archivo JSON
+    #  NUEVO: Guardar reservas en archivo JSON
     def guardar_reservas(self, ruta="datos/reservas.json"):
         guardar_json(ruta, [r.to_dict() for r in self.reservas])
 
-    # ✅ NUEVO: Cargar reservas desde archivo JSON
+    #  NUEVO: Cargar reservas desde archivo JSON
     def cargar_reservas(self, clientes, habitaciones, ruta="datos/reservas.json"):
         datos = cargar_json(ruta)
         self.reservas = [Reserva.from_dict(d, clientes, habitaciones) for d in datos]

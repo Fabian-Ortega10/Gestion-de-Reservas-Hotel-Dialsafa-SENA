@@ -11,4 +11,4 @@ for archivo in archivos:
     with open(archivo, "w", encoding="utf-8") as f:
         json.dump([], f, ensure_ascii=False, indent=4)
 
-print("✅ Archivos limpiados correctamente.")
+print(" Archivos limpiados correctamente.")

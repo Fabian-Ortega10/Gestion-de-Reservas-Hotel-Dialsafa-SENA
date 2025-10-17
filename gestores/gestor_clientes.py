@@ -25,11 +25,11 @@ class GestorClientes:
     def limpiar_clientes(self):
         self.clientes.clear()
 
-    # ✅ NUEVO: Guardar clientes en archivo JSON
+    #  NUEVO: Guardar clientes en archivo JSON
     def guardar_clientes(self, ruta="datos/clientes.json"):
         guardar_json(ruta, [c.to_dict() for c in self.clientes])
 
-    # ✅ NUEVO: Cargar clientes desde archivo JSON
+    #  NUEVO: Cargar clientes desde archivo JSON
     def cargar_clientes(self, ruta="datos/clientes.json"):
         datos = cargar_json(ruta)
         self.clientes = [Cliente.from_dict(d) for d in datos]
