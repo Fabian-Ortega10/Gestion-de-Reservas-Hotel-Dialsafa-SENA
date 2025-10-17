@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "numero": "1",
+        "tipo": "Sencilla",
+        "precio": 140000.0,
+        "capacidad": 2,
+        "cantidad_disponible": 16,
+        "ocupaciones": []
+    }
+]
