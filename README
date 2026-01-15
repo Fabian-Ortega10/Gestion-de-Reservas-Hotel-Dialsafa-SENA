@@ -1,0 +1,103 @@
+# Hotel Reservation Management System – Backend (Python)
+
+Backend system developed in Python to manage hotel reservations, customers, and room availability.  
+The project focuses on clear business logic, maintainable code, and the application of good software development practices.
+
+This repository is part of an academic–personal initiative aimed at simulating real-world backend scenarios commonly found in hospitality businesses.
+
+---
+
+## Problem Statement
+
+Small and medium-sized hotels often rely on manual processes or poorly structured systems to manage reservations.  
+This can result in overbooking, inconsistent data, and difficulties in tracking room availability and customer information.
+
+The objective of this project is to build a backend solution that centralizes reservation management and enforces clear business rules to ensure data consistency and future scalability.
+
+---
+
+## Solution Overview
+
+This backend application provides functionalities such as:
+
+- Reservation management
+- Customer registration and tracking
+- Room availability control
+- Validation of business rules related to booking dates and availability
+
+The solution is designed with a strong emphasis on business logic separation, code readability, and long-term maintainability.
+
+---
+
+## Architecture and Design
+
+The project follows a layered structure inspired by clean architecture principles:
+
+- **Domain Layer**: Core business entities and rules
+- **Application Layer**: Use cases and business workflows
+- **Infrastructure Layer**: Data persistence and external dependencies
+- **Interface Layer**: Entry points to the system (controllers or handlers)
+
+Design principles applied:
+
+- Object-Oriented Programming (OOP)
+- Single Responsibility Principle (SRP)
+- Separation of concerns
+- Expressive and meaningful naming
+
+---
+
+## Technologies Used
+
+- **Language:** Python  
+- **Architecture:** Layered architecture oriented to clean code  
+- **Database:** Relational database (SQL)  
+- **Version Control:** Git and GitHub  
+
+---
+
+## How to Run the Project
+
+This project is currently under active development.
+
+General steps:
+
+1. Clone the repository  
+2. Create and activate a virtual environment  
+3. Install dependencies  
+4. Run the application from the main entry point  
+
+Detailed setup instructions will be provided as the project evolves.
+
+---
+
+## Testing
+
+Unit tests are being implemented to validate core business rules, especially those related to reservation logic and data consistency.
+
+---
+
+## Project Status
+
+In progress.
+
+Planned improvements include:
+
+- Completion of backend endpoints
+- Expanded unit test coverage
+- Improved error handling
+- More detailed technical documentation
+
+---
+
+## Author
+
+Developed by **Fabián Ortega**  
+Technologist student in Software Analysis and Development (SENA)  
+Focused on backend development, clean code, and continuous learning.
+
+---
+
+## Notes
+
+This project is part of my professional portfolio and reflects my approach to backend problem-solving through structured logic, clean design, and continuous improvement.
